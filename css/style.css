@@ -1,16 +1,26 @@
+/* ------ Google font Josefin & sans-serif------------------
+------------------------------------------------------------- */
+
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+/* -------- Body style -----------------
+----------------------------------------- */
+
 *{
     margin: 0;
     padding: 0;
     font-family: 'Josefin Sans', sans-serif;
     box-sizing: border-box;
 }
-.pricingtable-button a{
-    text-decoration: none;
-    
-}
+
+/* ------ Pricing Table style ------------
+------------------------------------------- */
+
 .pricing-table{
     background: #b1ea86;
+}
+.pricingtable-button a{
+    text-decoration: none;  
 }
 .pricingtable{
     text-align: center;
@@ -91,8 +101,8 @@
     box-shadow: 0 0 10px #ffa442;
 }
 
-/* ------ blue -------
----------------------- */
+/* ------ Blue color and hover on card -------
+------------------------------------------------- */
 
 .pricingtable.blue .heading,
 .pricingtable.blue .price-value{
@@ -109,8 +119,8 @@
     box-shadow: 0 0 10px #4b64ff;
 }
 
-/* ------ Red -------
----------------------- */
+/* ------ Red color and hover on card -------
+----------------------------------------------- */
 
 .pricingtable.red .heading,
 .pricingtable.red .price-value{
@@ -127,8 +137,8 @@
     box-shadow: 0 0 10px #ff4b4b;
 }
 
-/* ------ Green -------
----------------------- */
+/* ------ Green color and hover on card -------
+---------------------------------------------------- */
 
 .pricingtable.green .heading,
 .pricingtable.green .price-value{
@@ -145,7 +155,9 @@
     box-shadow: 0 0 10px #40c952;
 }
 
-/* after section heading Hr line */
+/*----------- after section heading Hr line ----------------
+------------------------------------------------------------- */
+
 .text-hr-line::after{
     content: '';
     width: 18%;
@@ -156,3 +168,7 @@
     margin-top: 20px;
     border: 4px solid #ff4b4b;
 }
+
+/*----------------------------------- The End --------------------------------
+---------------------------------------------------------------------------------
+----------------------------------------------------------------------------------- */
