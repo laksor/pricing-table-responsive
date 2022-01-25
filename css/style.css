@@ -5,3 +5,63 @@
     font-family: 'Josefin Sans', sans-serif;
     box-sizing: border-box;
 }
+.pricingtable-button a{
+    text-decoration: none;
+    
+}
+.pricing-table{
+    background: #b1ea86;
+}
+.pricingtable{
+    text-align: center;
+    background: #fff;
+    margin: 0;
+    box-shadow: 0 0 10px #ababab;
+    padding-bottom: 40px;
+    border-radius: 10px;
+    color: #cad0de;
+    transform: scale(1);
+    transition: all .5s ease 0s;
+}
+.pricingtable:hover{
+    transform: scale(1.05);
+    z-index: 1;
+}
+.pricingtable .pricingtable-header{
+    padding: 40px 0;
+    background: #f5f6f9;
+    border-radius: 10px 10px 50% 50%;
+    transition: all .5s ease 0s;
+}
+.pricingtable:hover .pricingtable-header{
+    background: #ff9624;
+}
+.pricingtable .pricingtable-header i{
+    font-size: 50px;
+    color: #858c9a;
+    margin-bottom: 10px;
+    transition: all .5s ease 0s;
+}
+.pricingtable .price-value{
+    font-size: 35px;
+    color: #ff9624;
+    transition: all .5s ease 0s;
+}
+.pricingtable .month{
+    display: block;
+    color: #cad0de;
+    font-size: 15px;
+    transition: all .5s ease 0s;
+}
+.pricingtable:hover .month,
+.pricingtable:hover .price-value,
+.pricingtable:hover .pricingtable-header i{
+    color: #fff;
+}
+.pricingtable .heading{
+    font-size: 24px;
+    color: #ff9624;
+    margin: 20px 0;
+    text-transform: uppercase;
+    font-weight: bold;
+}
