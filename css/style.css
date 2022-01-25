@@ -65,3 +65,82 @@
     text-transform: uppercase;
     font-weight: bold;
 }
+.pricingtable .pricingtable-content ul{
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 30px;
+
+}
+.pricingtable .pricingtable-content ul li{
+    line-height: 30px;
+    color: #a7a8aa;
+}
+.pricingtable .pricingtable-button a{
+    display: inline-block;
+    font-size: 15px;
+    font-weight: bold;
+    color: #fff;
+    padding: 10px 35px;
+    border-radius: 20px;
+    background: #ffa442;
+    text-transform: capitalize;
+    transition: all .3s ease 0s;
+
+}
+.pricingtable .pricingtable-button a:hover{
+    box-shadow: 0 0 10px #ffa442;
+}
+
+/* ------ blue -------
+---------------------- */
+
+.pricingtable.blue .heading,
+.pricingtable.blue .price-value{
+    color: #4b64ff;
+}
+.pricingtable.blue:hover .pricingtable-header .price-value{
+    color: #fff;
+}
+.pricingtable.blue .pricingtable-button a,
+.pricingtable.blue:hover .pricingtable-header{
+    background: #4b64ff;
+}
+.pricingtable.blue .pricingtable-button a:hover{
+    box-shadow: 0 0 10px #4b64ff;
+}
+
+/* ------ Red -------
+---------------------- */
+
+.pricingtable.red .heading,
+.pricingtable.red .price-value{
+    color: #ff4b4b;
+}
+.pricingtable.red:hover .pricingtable-header .price-value{
+    color: #fff;
+}
+.pricingtable.red .pricingtable-button a,
+.pricingtable.red:hover .pricingtable-header{
+    background: #ff4b4b;
+}
+.pricingtable.red .pricingtable-button a:hover{
+    box-shadow: 0 0 10px #ff4b4b;
+}
+
+/* ------ Green -------
+---------------------- */
+
+.pricingtable.green .heading,
+.pricingtable.green .price-value{
+    color: #40c952;
+}
+.pricingtable.green:hover .pricingtable-header .price-value{
+    color: #fff;
+}
+.pricingtable.green .pricingtable-button a,
+.pricingtable.green:hover .pricingtable-header{
+    background: #40c952;
+}
+.pricingtable.green .pricingtable-button a:hover{
+    box-shadow: 0 0 10px #40c952;
+}
